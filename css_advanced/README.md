@@ -1,15 +1,15 @@
-Here's a detailed text explaining the concept and features of an **advanced responsive website built using only HTML and CSS**:
+Here's a detailed text explaining the concept and features of an **advanced responsive website built using only HTML and CSS:
 
 
-### Advanced Responsive Website with HTML and CSS**
+### Advanced Responsive Website with HTML and CSS
 
-#### Overview**
-This website is a fully responsive and visually appealing platform designed with **modern HTML and CSS** techniques. It provides a seamless user experience across all devices, from desktops to tablets and smartphones, without relying on JavaScript or external frameworks. The design focuses on accessibility, usability, and efficiency while adhering to web standards.
+#### Overview
+This website is a fully responsive and visually appealing platform designed with **modern HTML and CSS techniques. It provides a seamless user experience across all devices, from desktops to tablets and smartphones, without relying on JavaScript or external frameworks. The design focuses on accessibility, usability, and efficiency while adhering to web standards.
 
 
-#### Key Features**
+#### Key Features
 
-1. **Responsive Design**
+1. **Responsive Design
    - The layout automatically adjusts to fit different screen sizes and orientations using CSS **media queries**.
    - Flexible grid systems and fluid layout structures ensure optimal content display on any device.
 
@@ -38,7 +38,7 @@ This website is a fully responsive and visually appealing platform designed with
    - Adaptive designs using **relative units** like `em`, `rem`, `%`, and `vh/vw` ensure consistency across varying screen resolutions.
 
 
-#### Technical Highlights**
+#### Technical Highlights
 
 1. **HTML Structure**
    - Well-organized document hierarchy with semantic elements.
