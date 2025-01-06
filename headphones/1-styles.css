@@ -1,0 +1,261 @@
+/* Global Styles */
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+body {
+    font-family: "Source Sans 3", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-image: url('images/Object.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    height: 1093px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header img {
+    height: 30px;
+    width: 167px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: unset;
+}
+
+/* Main Section Styles */
+main section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section div {
+    margin-bottom: 20px;
+}
+
+
+
+main section h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section span {
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    left: 40%;
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+
+main section button {
+    background-color: #C271FF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 121px 18px;
+    margin-top: 1rem;
+    margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+main section button:hover {
+    background-color: #555;
+}
+
+/* Cards */
+section div div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+section div div div {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 calc(25% - 2rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section div div div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+section div div div h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+section div div div p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Testimonials */
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    margin: 1rem 0;
+}
+
+blockquote h3, blockquote p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Popular Tutorials */
+section div h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.fa-star {
+    color: #ffde59;
+}
+
+section div p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* FAQ Section */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section div div div h3 {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+section div div div div {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #071629;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer section {
+    max-width: 1440px;
+    height: auto; /* Adjusted to allow flexible height */
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+footer img {
+    margin-top: 120px;
+    width: 169px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer i {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-top: 120px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+footer i:hover {
+    color: #e40a89;
+}
+
+footer p {
+    margin-top: 200px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* Adjust layout using flexbox */
+footer section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer section div img {
+    margin-top: 110px; /* Remove extra margin as flexbox centers items */
+}
+
+footer section div i {
+    margin-top: 110px; /* Remove unnecessary margin for proper alignment */
+}
