@@ -67,7 +67,7 @@ main section {
 }
 
 main section div {
-    margin-bottom: 500px;
+    margin-bottom: 20px;
 }
 
 
@@ -84,7 +84,10 @@ main section h1 {
 
 main section span {
     position: absolute;
-  top: 50%;
+    text-align: justify;
+    top: 50%;
+    left: 40%;
+    margin: 30px;
     text-align: center;
     display: inline-block;
     margin: 0.5rem;
@@ -93,6 +96,7 @@ main section span {
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
+
 
 main section button {
     background-color: #C271FF;
@@ -107,16 +111,14 @@ main section button {
     margin-top: 1rem;
     margin: 0;
   position: absolute;
-  top: 50%;
+  top: 65%;
+  left: 45%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 main section button:hover {
     background-color: #555;
-}
-main section button::shadow {
-    background-color: #151515;
 }
 
 /* Cards */
